@@ -1,6 +1,3 @@
-
-
-
 let input = document.getElementById('item'),
 button = document.getElementById('add'),
 ol = document.getElementById('list')
@@ -38,6 +35,7 @@ removeToDo: e => {
     todoList.toDoCount();
 },
 };
+
 
 button.addEventListener('click', todoList.add);
 ol.addEventListener('click', todoList.removeToDo);
