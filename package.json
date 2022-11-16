@@ -1,0 +1,24 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "this to-do-list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhan-Sai-MM/TO-DO-LIST.git"
+  },
+  "author": "madhan mm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhan-Sai-MM/TO-DO-LIST/issues"
+  },
+  "homepage": "https://github.com/Madhan-Sai-MM/TO-DO-LIST#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
